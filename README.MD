@@ -232,3 +232,24 @@ git branch -D dev
  - 添加忽视文件.gitignore这个文件上传
  - 空文件夹不会被提交（想提交并且还是空的的）添加.gitkeep
  - 添加暂存区 添加历史区 添加一个远程地址 提交github上
+ 
+ - git add .
+ - git commit -m ''
+ - git remove add 提交项目名字（origin） 地址
+ - git push 提交项目名 分支名（master）
+ 
+ ## 查看远程仓库
+ ```
+ git remote -v
+ ```
+ ## 删除远程仓库
+ ```
+ git remote rm (origin)项目名字
+ ```
+ ## 使用git发布静态网站
+  - 需要创建一个固定的分支（gh-pages）将我们的代码传到这个特定的分支上
+    - 创建分支
+      - git checkout -b gh-pages
+      - git add .
+      - git commit -m 'static'
+      - git push 
