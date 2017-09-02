@@ -1,11 +1,3 @@
-## node 6周
-- 第一周 git node基础
-- 第二周 buffer fs http
-- 第三周 express 框架
-- 第四周 mongodb 博客项目
-- 第五周 爬虫 聊天室
-- 第六周 项目实战 react+node
-- 第七周 做项目 react+express+mongodb
 ## 常用命令
 ```
 常用指令
@@ -252,4 +244,5 @@ git branch -D dev
       - git checkout -b gh-pages
       - git add .
       - git commit -m 'static'
-      - git push 
+      - git push 名字 gh-pages
+               
